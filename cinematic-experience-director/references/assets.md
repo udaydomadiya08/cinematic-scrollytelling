@@ -58,6 +58,6 @@ Before choosing a technique, list: photography, video, image sequences, 3D model
 - Credits/attribution live somewhere discoverable (footer or credits page) and in the manifest.
 
 ## 9. Reference-prompt assets and AI-generated media
-- The files in `source-prompts/` contain example CloudFront/CDN URLs for videos, 3D renders, and icons. They may expire or be blocked in a given environment. Verify with a real request before relying on them; otherwise use procedural stand-ins.
+- The files in `taste-examples/` contain example CloudFront/CDN URLs for videos, 3D renders, and icons. They may expire or be blocked in a given environment. Verify with a real request before relying on them; otherwise use procedural stand-ins.
 - Styles S02/S03/S05 are best with short AI-generated or rendered films. If none exist, build a procedural canvas/WebGL "film" (flow field, nebula, noise sphere, orbiting shapes) whose time parameter is driven by the same progress value; say plainly that it is a stand-in.
 - Videos for scrubbing should be re-encoded all-keyframe (see `technique-recipes.md` R2) and kept under ~15 MB; provide a poster frame.

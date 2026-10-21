@@ -1,3 +1,5 @@
+> **TASTE EXAMPLE, NOT A TARGET.** This prompt recreates one existing site. It is kept only to show the *level of craft, polish and interaction quality* the owner likes. Do not rebuild it, reuse its copy, names, layout, or asset URLs for a new project. Extract principles (see `../taste-profile.md`) and invent a new style (`../style-synthesis.md`).
+
 Build a 3D Creator portfolio landing page for "Jack" using React, TypeScript, Tailwind CSS, Framer Motion, and Lucide React. The page has a dark theme (#0C0C0C background) with the font Kanit (Google Fonts, weights 300-900). The page title is "Jack -- 3D Creator".
 
 GLOBAL STYLES

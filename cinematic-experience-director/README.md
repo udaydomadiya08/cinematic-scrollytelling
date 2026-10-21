@@ -3,10 +3,12 @@
 A reusable AI coding skill that turns ambitious ideas into distinctive, motion-rich, technically sound, browser-verified web experiences: cinematic scrollytelling, product reveals, scientific/industrial explainers, data narratives, 3D showcases, and redesigns.
 
 ## What is new in this version
-- **Automatic style engine:** give a topic and the skill picks the best-fit style from 26 (plus 4 overlays), shows a short decision record, then builds.
+- **Dynamic style synthesis:** give a topic and the skill invents a bespoke style (metaphor -> mechanic -> world), using 26 seed styles only as vocabulary.
+- **Asset pipeline:** actively sources/generates high-quality media, fonts, icons, logos; quality-gates and documents them.
+- **Smart intake:** assumes everything inferable; asks only relevant high-impact questions, before building.
 - **Taste profile** distilled from three reference builds (3D portfolio, portal experience, scroll-scrubbed film page).
 - **Technique recipes** (R1-R20): tested-syntax vanilla JS/CSS for scrubbed video, portal canvas, stacking cards, marquees, magnetic hover, preloader, cursor, horizontal scroll, and more.
-- **Source prompts** for exact recreation of the three reference builds.
+- **Taste examples:** three reference prompts kept only as taste calibration (not targets).
 
 ## Contents
 - `SKILL.md` - metadata, activation description, and the 9-phase workflow (loaded when the skill triggers)
@@ -16,11 +18,14 @@ A reusable AI coding skill that turns ambitious ideas into distinctive, motion-r
 - `references/tech-and-performance.md` - stack choice, Three.js practices, budgets, accessibility, responsive, cleanup
 - `references/verification.md` - browser verification loop, viewport matrix, rubric, honest reporting
 - `references/explainers-and-data.md` - visual explanation, interactive models, data narratives
-- `references/style-selector.md` - how the best style is chosen automatically (topic table, scoring, combination rules)
-- `references/style-library.md` - 26 styles S01-S26 + overlays O1-O4, each with fallbacks
+- `references/style-selector.md` - seed shortlisting (topic table, scoring, combination rules)
+- `references/style-library.md` - 26 seed styles S01-S26 + overlays O1-O4, each with fallbacks
 - `references/taste-profile.md` - the quality bar and signature moves
 - `references/technique-recipes.md` - R1-R20 working code recipes
-- `references/source-prompts/` - three literal reference prompts (portfolio, portal, scroll-scrubbed film)
+- `references/style-synthesis.md` - how to invent a bespoke style per project (genome, mechanics, checks)
+- `references/asset-pipeline.md` - sourcing, generating, vetting, optimizing, and documenting assets
+- `references/intake-questions.md` - when to assume vs ask, and how to ask
+- `references/taste-examples/` - three sample prompts for taste calibration only (not targets)
 
 ## Install
 Agent skill formats differ; confirm your tool's current docs.

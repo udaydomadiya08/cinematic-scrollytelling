@@ -1,7 +1,7 @@
 # Taste Profile (the "motionsites-grade" quality bar)
 
 This file captures the taste of the person who owns this skill, distilled from three
-reference builds (see `source-prompts/`): a 3D-creator portfolio, a "Planet Jumping" portal
+reference builds (see `taste-examples/`): a 3D-creator portfolio, a "Planet Jumping" portal
 experience, and a scroll-scrubbed AI-company page. Apply it as the **default quality bar for
 every build**, whichever style from `style-library.md` is selected. It describes *qualities*
 to reach, not pages to copy.
@@ -70,8 +70,9 @@ neon-glow borders, no auto-playing carousels, no scroll hijacking of direction, 
 paragraph-heavy sections. Media is full-bleed or heavily rounded, never boxed with a drop shadow.
 
 ## 5. Copy-vs-craft boundary
-The three source prompts recreate existing sites. When building a **new** site, reuse the
-*techniques, tokens and rhythm* but write original copy, choose original names, change the
-palette/type to fit the subject, and never reuse the sample brand names, characters, or asset
-URLs unless the user explicitly asks for an exact recreation. In recreation mode, follow
-the matching file in `source-prompts/` literally.
+The three files in `taste-examples/` recreate existing sites. They are **calibration of taste and craft level only**.
+They are not targets, templates, or the only acceptable looks. For every new project: invent a bespoke style
+(`style-synthesis.md`), write original copy and names, choose palette/type/mechanics from the subject, and source
+original assets (`asset-pipeline.md`). Never reuse the sample brands, copy, layouts, or asset URLs. If a result could
+be recognized as one of the examples, mutate it further. (Only rebuild an example literally if the user explicitly
+asks for exactly that.)

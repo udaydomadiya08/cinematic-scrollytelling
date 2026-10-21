@@ -1,3 +1,5 @@
+> **TASTE EXAMPLE, NOT A TARGET.** This prompt recreates one existing site. It is kept only to show the *level of craft, polish and interaction quality* the owner likes. Do not rebuild it, reuse its copy, names, layout, or asset URLs for a new project. Extract principles (see `../taste-profile.md`) and invent a new style (`../style-synthesis.md`).
+
 # Exact recreation prompt — NovaAI landing page
 
 Recreate this page **pixel-faithfully**. Stack: React + TypeScript + Vite + Tailwind CSS + lucide-react. Do not invent alternate copy, layout, fonts, colors, or effects.

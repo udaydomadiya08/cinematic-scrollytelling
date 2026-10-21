@@ -1,14 +1,15 @@
-# Style Library (26 scrollytelling / immersive styles)
+# Style Library (26 seed styles for scrollytelling / immersive sites)
 
-Each style is a *direction*, not a template. The selector (`style-selector.md`) picks one
-primary style (plus at most two secondary and one overlay). Then bend it to the subject using
-`art-direction.md` and the taste bar in `taste-profile.md`. Recipes are in `technique-recipes.md`
-(R1-R20). Entries marked **[REF]** have a literal reference prompt in `source-prompts/`.
+**These are seeds and vocabulary, not a menu.** Use them to (a) understand proven patterns, (b) seed-and-mutate
+or hybridize into a bespoke style (`style-synthesis.md`), or (c) pick one outright only when it is genuinely the best
+fit. Never copy an entry verbatim; always adapt to the subject, assets and the user's taste. Recipes are in
+`technique-recipes.md` (R1-R20). Entries marked **[taste example]** have a sample prompt in `taste-examples/`
+showing the craft level the owner likes; those prompts are not targets.
 
 ## Contents
-- S01 Monumental Gradient Type Portfolio [REF]
-- S02 Portal / Destination Hop [REF]
-- S03 Scroll-Scrubbed Film Background (+ glass UI) [REF]
+- S01 Monumental Gradient Type Portfolio [taste example]
+- S02 Portal / Destination Hop [taste example]
+- S03 Scroll-Scrubbed Film Background (+ glass UI) [taste example]
 - S04 Pinned Chapter Storytelling
 - S05 Image-Sequence Product Reveal
 - S06 3D Object Showcase / Exploded View (Three.js)
@@ -38,7 +39,7 @@ Entry format: **Best for / Feel / Signature / Look / Layout & motion / Build / N
 
 ---
 
-## S01 Monumental Gradient Type Portfolio [REF: 01]
+## S01 Monumental Gradient Type Portfolio [taste example: 01]
 - **Best for:** creators, designers, 3D artists, agencies, personal brands, studios, founders.
 - **Feel:** confident, premium, dark, sculptural.
 - **Signature:** the name/greeting is set at 14-18vw in a silver gradient and a cut-out subject
@@ -54,9 +55,9 @@ Entry format: **Best for / Feel / Signature / Look / Layout & motion / Build / N
 - **No-asset fallback:** subject = CSS/SVG object or Three.js primitive with a soft material;
   marquee tiles = generated gradient+type cards.
 - **Mobile:** heading at 14vw, portrait centered behind text, marquee tiles 260x170.
-- **Avoid:** cloning the sample "Jack" copy or the exact asset URLs.
+- **Avoid:** cloning the sample copy, layout or asset URLs; mutate it per `style-synthesis.md`.
 
-## S02 Portal / Destination Hop [REF: 02]
+## S02 Portal / Destination Hop [taste example: 02]
 - **Best for:** space, travel, destinations, games, worlds, product "modes", cities, planets,
   seasons, anything with a small set of *places/states* the visitor hops between.
 - **Feel:** cinematic, immersive, one-screen, tactile.
@@ -73,7 +74,7 @@ Entry format: **Best for / Feel / Signature / Look / Layout & motion / Build / N
 - **Mobile:** window top 44%, 66vw wide; chrome simplified; tap = enter.
 - **Avoid:** more than ~5 states; letting video decode stall the transition (preload next).
 
-## S03 Scroll-Scrubbed Film Background (+ glass UI) [REF: 03]
+## S03 Scroll-Scrubbed Film Background (+ glass UI) [taste example: 03]
 - **Best for:** AI/SaaS/tech companies, startups, fintech, studios, product launches, abstract
   concepts, anything with one striking looped 3D/AI film.
 - **Feel:** sleek, atmospheric, editorial, quiet confidence.

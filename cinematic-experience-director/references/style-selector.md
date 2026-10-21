@@ -1,9 +1,10 @@
-# Style Selector (automatic best-fit style choice)
+# Style Selector (shortlist seeds, then synthesize)
 
 Goal: when the user gives only a topic ("make a scrollytelling site for a coffee roaster",
-"website about black holes", "portfolio for a 3D artist") or a topic plus loose instructions,
-choose the best-fitting style from `style-library.md` **without asking**, justify it in five lines,
-then build it.
+"website about black holes", "portfolio for a 3D artist") or a topic plus loose instructions, choose
+everything automatically: shortlist **seed** styles from `style-library.md`, then **synthesize a bespoke style**
+with `style-synthesis.md`, show a short Style Brief, and build. The seeds below are a starting shortlist, never a
+limit: if no seed fits, invent the style from scratch. Ask the user questions only under `intake-questions.md`.
 
 ## Contents
 1. Inputs to read
@@ -13,7 +14,7 @@ then build it.
 5. Scoring grid for ambiguous cases
 6. Combination rules
 7. Variety rule
-8. Style Decision Record (what to show the user)
+8. Quick decision record (short form)
 9. Switching styles on request
 
 ## 1. Inputs to read
@@ -27,15 +28,15 @@ explain, impress, inform, recruit, donate), **mood words**, **explicit style/ref
    (see section 3), use it as primary. Still choose secondaries by fit.
 2. **Classify the subject's nature**: Object (product) / Place or world / Process or system /
    Data or evidence / Person or brand / Idea or emotion / Collection of work.
-3. **Look up the topic table** (section 4) to get a *shortlist of 2-3 styles*.
+3. **Look up the topic table** (section 4) to get a *shortlist of 2-3 seed styles* (or skip it for unusual topics).
 4. **Check assets reality.** What can truly be obtained or generated? No film -> avoid S03
    film mode unless a procedural film is built. No frames -> avoid S05 or build with Three.js.
    No photos -> avoid S24/S08. Use each style's *No-asset fallback*.
 5. **Score the shortlist** with the grid (section 5) when it is not obvious.
-6. **Pick 1 primary + 0-2 secondary + 0-1 overlays** (section 6).
-7. **Write the Style Decision Record** (section 8), then proceed to Phase 3 art direction.
-   Do not stall with questions; at most one bundled question if a missing fact truly blocks
-   the result (e.g. a real brand name or required language).
+6. **Pick seeds** (1 primary + 0-2 secondary + 0-1 overlays, section 6), then **mutate/hybridize** them into a bespoke
+   style using `style-synthesis.md` (change at least three genome axes; or design from scratch).
+7. **Write the Style Brief** (format in `style-synthesis.md` section 8), then proceed to Phase 3 art direction.
+   Questions follow `intake-questions.md`: ask only relevant, high-impact unknowns, before building; otherwise assume.
 
 ## 3. Keyword triggers (explicit style requests)
 | If the user says / pastes | Use |
@@ -128,7 +129,7 @@ If asked for several sites in one conversation, or the same topic twice, change 
 archetype, palette family and type pairing each time. If outputs begin to look alike, the selection
 step was skipped.
 
-## 8. Style Decision Record (show before building; max ~8 lines)
+## 8. Quick decision record (short form; the full Style Brief is in `style-synthesis.md` section 8)
 ```
 Style decision
 - Topic read as: <subject nature> for <audience>, goal <goal>
