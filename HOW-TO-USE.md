@@ -33,6 +33,7 @@
 | references/taste-profile.md, taste-examples/ | Quality bar; your 4 samples as calibration only |
 | references/asset-pipeline.md, assets.md | Sourcing, generating, vetting assets |
 | references/technique-recipes.md | R1-R21 working code |
+| sample-websites/ | Real reference HTML builds & example prompts |
 | other references | Art direction, motion, tech/performance, verification, explainers |
 
 ## Install permanently

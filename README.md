@@ -167,25 +167,89 @@ Every generated website passes through this rigorous architectural workflow:
 ├── HOW-TO-USE.md                              # Quick-start usage guide for humans
 ├── START-HERE.md                              # Bootstrapping instructions for any AI agent
 ├── cinematic-experience-director.skill        # Packaged skill archive for Claude / Antigravity
+├── sample-websites/                           # Real reference builds & sample prompts
+│   ├── kinetix-aether-one-3d-breakdown.html   # Working flagship 3D teardown & re-merge website
+│   └── EXAMPLE-PROMPT.md                      # Example prompts and topic adaptation guides
 └── cinematic-experience-director/
     ├── SKILL.md                               # Master director workflow and execution rules
     ├── README.md                              # Skill overview and index
     └── references/
         ├── intake-questions.md                # Decision rules: when to assume vs. when to ask
         ├── style-synthesis.md                 # Bespoke style invention & the 12 Style Genome axes
-        ├── style-library.md                   # 26 seed styles with signature devices & emotional profiles
+        ├── style-library.md                   # 27 seed styles with signature devices & emotional profiles
         ├── style-selector.md                  # Topic-to-style recommendation matrix
         ├── taste-profile.md                   # Visual quality bar, typography rules, and anti-patterns
-        ├── taste-examples/                    # Calibration benchmarks (Jack 3D, Planet Portal, NovaAI)
+        ├── taste-examples/                    # Calibration benchmarks (Jack 3D, Planet Portal, NovaAI, Kinetix)
         ├── asset-pipeline.md                  # Sourcing, generation, visual grading & ASSETS.md rules
         ├── assets.md                          # Licensing constraints, optimization & 3D guidelines
-        ├── technique-recipes.md               # Complete R1–R20 copy-pasteable motion code implementations
+        ├── technique-recipes.md               # Complete R1–R21 copy-pasteable motion code implementations
         ├── art-direction.md                   # Color roles, typography hierarchies, and composition rules
         ├── motion-and-scroll.md               # Motion choreography, easing mathematics & stagger timing
         ├── tech-and-performance.md            # 60fps budgets, memory management & DOM virtualization
         ├── verification.md                    # Mandatory multi-device testing & defect triage
         └── explainers-and-data.md             # Visualizing complex narratives, data & science
 ```
+
+---
+
+## 🌐 Sample Reference Websites
+
+Explore real, working implementations in the [`sample-websites/`](sample-websites/) directory:
+
+### 🎧 KINETIX // AETHER ONE — 3D Teardown & Re-Merge Showcase
+* **Live File**: [`sample-websites/kinetix-aether-one-3d-breakdown.html`](sample-websites/kinetix-aether-one-3d-breakdown.html)
+* **Example Prompts & Guide**: [`sample-websites/EXAMPLE-PROMPT.md`](sample-websites/EXAMPLE-PROMPT.md)
+* **Styles & Recipes Used**: **S27** (3D Diagonal Explode & Re-Merge Assembly), **S26** (Interactive Explainer Lab), **R21** (3D Timeline State Evaluator), **R5** (Sticky Stacking Cards), **R4** (Dual Velocity Marquee).
+* **Highlights**: 7-layer diagonal 38.4° physical component separation on scroll, interactive 360° orbit drag, CAD leader-line callout pins, magnetic re-convergence with acoustic lock shockwave, clinical cleanroom inversion seam (#F3F3EE), 7-layer BOM explorer, neural ANC waveform simulator, and Web Audio API synthesizer.
+
+---
+
+## 🤖 How to Build Using Google Antigravity & Gemini Pro in Tasks
+
+If you are using **Google Antigravity IDE** with **Gemini 1.5 Pro / Advanced**, you can autonomously create production-grade cinematic websites directly from chat or background tasks.
+
+### Step 1: Install the Skill into Antigravity
+Copy the skill folder into your Antigravity global customization root (or workspace `.agents/` folder):
+
+```bash
+# Global installation (available in all Antigravity projects):
+mkdir -p ~/.gemini/config/skills/
+cp -r cinematic-experience-director ~/.gemini/config/skills/
+
+# Or workspace-specific installation:
+mkdir -p .agents/skills/
+cp -r cinematic-experience-director .agents/skills/
+```
+Antigravity automatically discovers the skill and loads `SKILL.md` when you ask for website creation, scrollytelling, 3D breakdowns, or redesigns.
+
+### Step 2: Select Gemini Pro
+In the Antigravity chat or task panel, set your model to **Gemini 1.5 Pro (High/Medium)**. Gemini Pro has the large context window and multimodal reasoning needed to synthesize the 12-axis Style Genome, write Three.js WebGL shaders, and verify complex HTML files.
+
+### Step 3: Prompt Gemini in a Task
+You can trigger the entire workflow with a single message:
+
+#### For Hardware / Teardown / Physical Products (Auto-triggers S27 & R21):
+```text
+Create a cinematic scrollytelling website for my [product/hardware/vehicle/instrument] called '[Brand/Model]'.
+Show an interactive 3D diagonal exploded view of its internal components on scroll, orbit in 3D, and magnetically re-merge back together before continuing into technical specs and reservation.
+```
+
+#### For Sci-Fi, Science, or Astronomy:
+```text
+Create a scrollytelling website about the event horizon of supermassive black holes. High visual intensity (5/5), dark cosmic palette, procedural accretion disk canvas, and interactive relativistic Doppler effect lab.
+```
+
+#### For Portfolios or Creative Studios:
+```text
+Build a monumental 3D creator portfolio for a generative AI artist named Riya. Dark mode (#0C0C0C), 16vw silver gradient typography, magnetic portrait tracking, and sticky stacking project cards.
+```
+
+### Step 4: Autonomous Execution by Gemini Pro
+When executed in Antigravity, Gemini Pro autonomously:
+1. **Reads `SKILL.md` and references**: Selects the best seed style (or auto-selects S27 for physical hardware/mechanisms).
+2. **Synthesizes a bespoke Style Brief & `DESIGN.md`**: Enforces the Swap Test (zero generic SaaS templates).
+3. **Writes the complete self-contained HTML**: Implements recipes (R1–R21) without external build steps or broken dependencies.
+4. **Performs Browser Verification**: If browser subagent tools are enabled, it inspects the page at 390px, 768px, and 1440px viewports to eliminate defects.
 
 ---
 
@@ -207,7 +271,6 @@ cp -r cinematic-experience-director <your-project>/.claude/skills/
 ### Option 3: Google Antigravity IDE / Gemini Agent
 ```bash
 git clone https://github.com/udaydomadiya08/cinematic-scrollytelling.git
-# Copy into Antigravity global customizations:
 mkdir -p ~/.gemini/config/skills/
 cp -r cinematic-experience-director ~/.gemini/config/skills/
 ```
