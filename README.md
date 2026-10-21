@@ -94,16 +94,17 @@ Shipped with exact, verbatim prompt guides and code architectures:
 When crafting an experience, the Director executes this systematic 9-phase pipeline:
 
 ```mermaid
-graph LR
-    P1[Phase 1: Understand & Brief] --> P2[Phase 2: Reference Study]
-    P2 --> P3[Phase 3: Art Direction]
-    P3 --> P4[Phase 4: Cinematic Storyboard]
-    P4 --> P5[Phase 5: Asset Engineering]
-    P5 --> P6[Phase 6: Rendering Engine]
-    P6 --> P7[Phase 7: Motion Choreography]
-    P7 --> P8[Phase 8: Vertical Slice Build]
-    P8 --> P9[Phase 9: Browser Verification]
+flowchart TD
+    P1["Phase 1: Understand and Inspect"] --> P2["Phase 2: Reference Deconstruction"]
+    P2 --> P3["Phase 3: Original Art Direction"]
+    P3 --> P4["Phase 4: Cinematic Storyboard"]
+    P4 --> P5["Phase 5: Asset Strategy and Fallbacks"]
+    P5 --> P6["Phase 6: Rendering Engine Selection"]
+    P6 --> P7["Phase 7: Motion Choreography"]
+    P7 --> P8["Phase 8: Vertical Slice Implementation"]
+    P8 --> P9["Phase 9: Browser Verification and Polish"]
 ```
+
 
 1. **Understand & Inspect:** Establish objective, target audience, visual intensity score (1 to 5), and core constraints.
 2. **Reference Deconstruction:** Analyze inspiring references for techniques, lighting, and pacing without superficial cloning.
