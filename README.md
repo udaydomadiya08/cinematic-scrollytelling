@@ -168,7 +168,11 @@ Every generated website passes through this rigorous architectural workflow:
 ├── START-HERE.md                              # Bootstrapping instructions for any AI agent
 ├── cinematic-experience-director.skill        # Packaged skill archive for Claude / Antigravity
 ├── sample-websites/                           # Real reference builds & sample prompts
-│   ├── kinetix-aether-one-3d-breakdown.html   # Working flagship 3D teardown & re-merge website
+│   ├── kinetix-aether-one-3d-breakdown.html   # S27: 3D hardware teardown & magnetic re-merge
+│   ├── mars-unfinished-terraforming-story.html # S02: Procedural 3D canvas planet & terraforming story
+│   ├── singularity_interactive_scrollytelling_guide_to_black_holes.html # S18: Relativistic gravitational lensing
+│   ├── vantage_ceramica_morbi_1220_c_sintered_architectural_slabs_s27_scrollytelling.html # S27: Sintered slab 3D breakdown
+│   ├── hinokami_demon_slayer_kimetsu_no_yaiba_complete_scrollytelling_chronicle.html # S11/S17: Anime flame breathing
 │   └── EXAMPLE-PROMPT.md                      # Example prompts and topic adaptation guides
 └── cinematic-experience-director/
     ├── SKILL.md                               # Master director workflow and execution rules
@@ -194,13 +198,34 @@ Every generated website passes through this rigorous architectural workflow:
 
 ## 🌐 Sample Reference Websites
 
-Explore real, working implementations in the [`sample-websites/`](sample-websites/) directory:
+Explore real, working implementations across hardware startups, space science, industrial manufacturing, astrophysics, and anime/entertainment in the [`sample-websites/`](sample-websites/) directory:
 
-### 🎧 KINETIX // AETHER ONE — 3D Teardown & Re-Merge Showcase
+### 1. 🎧 KINETIX // AETHER ONE — 3D Teardown & Re-Merge Showcase
 * **Live File**: [`sample-websites/kinetix-aether-one-3d-breakdown.html`](sample-websites/kinetix-aether-one-3d-breakdown.html)
-* **Example Prompts & Guide**: [`sample-websites/EXAMPLE-PROMPT.md`](sample-websites/EXAMPLE-PROMPT.md)
-* **Styles & Recipes Used**: **S27** (3D Diagonal Explode & Re-Merge Assembly), **S26** (Interactive Explainer Lab), **R21** (3D Timeline State Evaluator), **R5** (Sticky Stacking Cards), **R4** (Dual Velocity Marquee).
-* **Highlights**: 7-layer diagonal 38.4° physical component separation on scroll, interactive 360° orbit drag, CAD leader-line callout pins, magnetic re-convergence with acoustic lock shockwave, clinical cleanroom inversion seam (#F3F3EE), 7-layer BOM explorer, neural ANC waveform simulator, and Web Audio API synthesizer.
+* **Styles & Recipes**: **S27** (3D Diagonal Explode & Re-Merge Assembly), **S26** (Interactive Explainer Lab), **R21** (3D Timeline State Evaluator), **R5** (Sticky Cards), **R4** (Dual Marquee).
+* **Highlights**: 7-layer diagonal 38.4° physical component separation on scroll, interactive 360° orbit drag, CAD leader-line callout pins, magnetic re-convergence with acoustic lock shockwave, clinical cleanroom inversion seam (#F3F3EE), 7-layer BOM explorer, neural ANC waveform simulator, and Web Audio synthesizer.
+
+### 2. 🔴 Mars, Unfinished — A Planetary Terraforming Story
+* **Live File**: [`sample-websites/mars-unfinished-terraforming-story.html`](sample-websites/mars-unfinished-terraforming-story.html)
+* **Styles & Recipes**: **S02** (Destination / Planet Hop), **S12** (Editorial Long-Read), **R8** (Canvas 3D Planet Window).
+* **Highlights**: Procedural canvas 3D planet with real-time lighting shaders, horizon wipe transition (clip-path left-to-right), warm rust & basalt palette (`#120B09`), and `Instrument Serif` + `IBM Plex Mono` typography.
+
+### 3. 🕳️ SINGULARITY — Interactive Scrollytelling Guide to Black Holes
+* **Live File**: [`sample-websites/singularity_interactive_scrollytelling_guide_to_black_holes.html`](sample-websites/singularity_interactive_scrollytelling_guide_to_black_holes.html)
+* **Styles & Recipes**: **S18** (Continuous Zoom-Through), **S26** (Interactive Explainer Lab), **S14** (Blueprint / Technical Instrument).
+* **Highlights**: Real-time relativistic gravitational lensing accretion disk canvas simulation, event horizon time-dilation calculations, Schwarzschild radius physics lab, and interactive Doppler shift acoustic engine.
+
+### 4. 🏛️ VANTAGE CERAMICA // MORBI — Sintered Architectural Slabs
+* **Live File**: [`sample-websites/vantage_ceramica_morbi_1220_c_sintered_architectural_slabs_s27_scrollytelling.html`](sample-websites/vantage_ceramica_morbi_1220_c_sintered_architectural_slabs_s27_scrollytelling.html)
+* **Styles & Recipes**: **S27** (3D Exploded-View & Re-Merge Assembly), **S04** (Pinned Chapter Manufacturing Journey).
+* **Highlights**: Industrial large-format architectural slab (3200x1600mm) that rotates and explodes into its mineral and glaze layers on scroll, then magnetically re-merges under 44,000-tonne hydraulic press animation.
+
+### 5. ⚔️ HINOKAMI // Demon Slayer: Kimetsu no Yaiba Chronicle
+* **Live File**: [`sample-websites/hinokami_demon_slayer_kimetsu_no_yaiba_complete_scrollytelling_chronicle.html`](sample-websites/hinokami_demon_slayer_kimetsu_no_yaiba_complete_scrollytelling_chronicle.html)
+* **Styles & Recipes**: **S11** (Kinetic Brutalist), **S10** (Type-as-Window Reveal), **S17** (Shader / Flame Particle Effects).
+* **Highlights**: Dynamic solar flame breathing canvas particle engine, breathing form chapters, Japanese woodblock typography, and interactive character blade profiles.
+
+> 📖 **Prompts & Adaptation Guide**: See [`sample-websites/EXAMPLE-PROMPT.md`](sample-websites/EXAMPLE-PROMPT.md) for the exact prompts used to generate each site and how to adapt them for your own topic.
 
 ---
 
