@@ -1,13 +1,14 @@
 # How to use the Cinematic Experience Director skill (v3: dynamic style + assets + smart questions)
 
-## In a new chat
-1. Attach this zip.
+## In a new chat / task
+1. Attach this zip. (On **gemini.google.com**: toggle from *Chat* to **Task** mode, click the model dropdown and select **Argon**, then attach this zip).
 2. Write your request, even one line:
    - "Create a scrollytelling website about black holes."
    - "Scrollytelling site for my specialty coffee roastery."
+   - "3D diagonal explode and re-merge launch website for my hardware startup."
    - "Portfolio for a 3D artist named Riya, dark and premium."
-3. If your prompt is short or vague, Claude chooses everything automatically (style, palette, fonts, layout, motion, assets) and builds.
-4. If something truly matters and cannot be guessed (your real brand name, logo/photos, a genuine taste choice), Claude asks a few sharp questions first (max 4, with defaults). Say "just build it" to skip all questions.
+3. If your prompt is short or vague, the AI chooses everything automatically (style, palette, fonts, layout, motion, assets) and builds.
+4. If something truly matters and cannot be guessed (your real brand name, logo/photos, a genuine taste choice), it asks a few sharp questions first (max 4, with defaults). Say "just build it" to skip all questions.
 
 ## What it does for you
 - **Invents a style per topic** (not from a fixed list): finds a metaphor in your subject, a scroll mechanic that acts it out, and a matching world of colors, type and media.

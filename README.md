@@ -227,17 +227,55 @@ Explore real, working implementations across hardware startups, space science, i
 
 > 📖 **Prompts & Adaptation Guide**: See [`sample-websites/EXAMPLE-PROMPT.md`](sample-websites/EXAMPLE-PROMPT.md) for the exact prompts used to generate each site and how to adapt them for your own topic.
 
+## 🤖 How to Build Using Gemini Web Task Mode (Argon Model)
+
+If you are a **Gemini Advanced / Google One AI Premium** subscriber using the Gemini Web interface at [gemini.google.com](https://gemini.google.com), you can generate award-winning scrollytelling websites using the dedicated **Task** mode and the **Argon** model.
+
+```
+gemini.google.com  ➔  Select [Task] mode  ➔  Choose [Argon] Model  ➔  Attach GitHub Zip  ➔  Prompt
+```
+
+### Step-by-Step Instructions:
+
+1. **Download the Repository Zip**:
+   * On this GitHub page, click the green **Code** button and select **Download ZIP** (or use the packaged [`cinematic-experience-director.skill`](cinematic-experience-director.skill) / release zip).
+2. **Go to Gemini Web**:
+   * Navigate to [gemini.google.com](https://gemini.google.com).
+3. **Switch to Task Mode**:
+   * Under the main prompt box, toggle from **Chat** to **Task** mode (see the `Chat` / `Task` pills).
+4. **Select the Argon Model**:
+   * In the model dropdown inside the task input box (which defaults to *Flash*), click the dropdown and select **Argon** (the high-reasoning Gemini Pro model for tasks).
+5. **Attach the Zip File**:
+   * Click the **+** (Attach / Upload) button in the prompt box and select your downloaded `cinematic-scrollytelling-main.zip` (or `cinematic-experience-director-complete-v3.zip`).
+6. **Enter Your Prompt**:
+   * Paste the prompt below into the task box.
+
 ---
 
-## 🤖 How to Build Using Google Antigravity & Gemini Pro in Tasks
+### Copy-Paste Prompt for Gemini Web Task Mode (Argon):
 
-If you are using **Google Antigravity IDE** with **Gemini 1.5 Pro / Advanced**, you can autonomously create production-grade cinematic websites directly from chat or background tasks.
+```text
+I have attached the repository zip for the cinematic-experience-director skill. 
 
-### Step 1: Install the Skill into Antigravity
-Copy the skill folder into your Antigravity global customization root (or workspace `.agents/` folder):
+First, unzip and read START-HERE.md and cinematic-experience-director/SKILL.md. 
+Then, act as the Cinematic Experience Director to build a complete, distinctive, award-winning scrollytelling website for:
+
+Topic: [Your topic here, e.g. "Flagship launch for an audiophile hardware startup called KINETIX AETHER ONE"]
+Requirements:
+1. Synthesize a bespoke style (12-axis Style Genome) from the subject—do not use generic SaaS templates. If this is a physical product or machine, auto-select Style S27 with an interactive 3D diagonal exploded view and magnetic re-merge assembly.
+2. Structure the experience into scenes, not generic sections. Include moments of quiet, dimensional contrast, and technical depth.
+3. Build a working vertical slice at full craft level using HTML5, modern vanilla CSS/JS, Canvas, or Three.js WebGL.
+4. Output the complete, working code in a single self-contained HTML file that runs directly in any modern browser without npm dependencies.
+```
+
+---
+
+## 💻 Building with Google Antigravity IDE & Gemini Pro (CLI / Agent)
+
+If you are using the **Google Antigravity IDE** or Gemini Agent CLI, you can also install the skill locally for autonomous background tasks:
 
 ```bash
-# Global installation (available in all Antigravity projects):
+# Global installation (available in all Antigravity tasks):
 mkdir -p ~/.gemini/config/skills/
 cp -r cinematic-experience-director ~/.gemini/config/skills/
 
@@ -245,36 +283,8 @@ cp -r cinematic-experience-director ~/.gemini/config/skills/
 mkdir -p .agents/skills/
 cp -r cinematic-experience-director .agents/skills/
 ```
-Antigravity automatically discovers the skill and loads `SKILL.md` when you ask for website creation, scrollytelling, 3D breakdowns, or redesigns.
 
-### Step 2: Select Gemini Pro
-In the Antigravity chat or task panel, set your model to **Gemini 1.5 Pro (High/Medium)**. Gemini Pro has the large context window and multimodal reasoning needed to synthesize the 12-axis Style Genome, write Three.js WebGL shaders, and verify complex HTML files.
-
-### Step 3: Prompt Gemini in a Task
-You can trigger the entire workflow with a single message:
-
-#### For Hardware / Teardown / Physical Products (Auto-triggers S27 & R21):
-```text
-Create a cinematic scrollytelling website for my [product/hardware/vehicle/instrument] called '[Brand/Model]'.
-Show an interactive 3D diagonal exploded view of its internal components on scroll, orbit in 3D, and magnetically re-merge back together before continuing into technical specs and reservation.
-```
-
-#### For Sci-Fi, Science, or Astronomy:
-```text
-Create a scrollytelling website about the event horizon of supermassive black holes. High visual intensity (5/5), dark cosmic palette, procedural accretion disk canvas, and interactive relativistic Doppler effect lab.
-```
-
-#### For Portfolios or Creative Studios:
-```text
-Build a monumental 3D creator portfolio for a generative AI artist named Riya. Dark mode (#0C0C0C), 16vw silver gradient typography, magnetic portrait tracking, and sticky stacking project cards.
-```
-
-### Step 4: Autonomous Execution by Gemini Pro
-When executed in Antigravity, Gemini Pro autonomously:
-1. **Reads `SKILL.md` and references**: Selects the best seed style (or auto-selects S27 for physical hardware/mechanisms).
-2. **Synthesizes a bespoke Style Brief & `DESIGN.md`**: Enforces the Swap Test (zero generic SaaS templates).
-3. **Writes the complete self-contained HTML**: Implements recipes (R1–R21) without external build steps or broken dependencies.
-4. **Performs Browser Verification**: If browser subagent tools are enabled, it inspects the page at 390px, 768px, and 1440px viewports to eliminate defects.
+When you launch an Antigravity task with **Gemini Pro**, the agent will autonomously read the skill, synthesize `DESIGN.md`, write code, and verify it across viewports using browser tools.
 
 ---
 
