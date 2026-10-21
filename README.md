@@ -1,4 +1,4 @@
-# 🎬 Cinematic Experience Director (v3)
+# 🎬 Cinematic Experience Director 
 
 [![Version](https://img.shields.io/badge/version-3.0.0-blue.svg?style=flat-square)](https://github.com/udaydomadiya08/cinematic-scrollytelling)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
