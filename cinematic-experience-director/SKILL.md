@@ -62,9 +62,10 @@ Write down per reference: *technique observed - why it works - what NOT to copy*
 ### Phase 3 - Original art direction
 Read `references/art-direction.md`. Decide deliberately: palette (with roles), type system (display + text + mono/data if needed), grid and composition language, image treatment, lighting and materials, depth, density, interface style, and a **signature idea** - the one memorable visual device the whole experience is built around (a lens, a cross-section, a single continuous camera move, a type-as-architecture system, etc.).
 
-Start from the **synthesized style** (`references/style-synthesis.md`; seeds in `references/style-library.md`) and the taste bar (`references/taste-profile.md`), then make subject-specific choices. Dark mode, glass chips, gradient type, and large radii are legitimate when the chosen style calls for them (S01, S03, O1). Defaults to avoid unless the style or concept justifies them: purple/blue gradients as decoration, glow borders, uniform rounded cards, centered hero + three feature cards, identical fade-up on every element, generic gradient blobs.
+Start from the **synthesized style** (`references/style-synthesis.md`; seeds in `references/style-library.md`) and the taste bar (`references/taste-profile.md`), then make subject-specific choices. Apply the **Swap Test** (`references/taste-profile.md` section 6): reject any composition or card system that could belong to a generic B2B SaaS template. Enforce topic-native editorial micro-copy (no filler slogans or passive CTAs).
 
-**Deliverable - Art direction note:** Style Brief, signature idea, palette tokens, type pairing, composition rules, image/lighting treatment, what is intentionally avoided.
+**Deliverable - Art direction note & `DESIGN.md`:** Style Brief, signature idea, palette tokens, type pairing, composition rules, image/lighting treatment, Swap Test pass, and project `DESIGN.md` token specification.
+
 
 ### Phase 4 - Storyboard
 Plan **scenes**, not sections. For each scene define: (1) narrative purpose and key message, (2) main subject and composition, (3) camera/viewpoint and movement, (4) assets needed, (5) what changes with scroll or interaction, (6) supporting copy, (7) entry and exit transitions, (8) performance/accessibility/factual constraints.
@@ -107,6 +108,7 @@ Avoid: the same fade-up everywhere, perpetual random motion, bounce for its own 
 - Handle: state, responsive layout, loading and error states, animation cleanup, event listeners, asset failures, fallbacks.
 - Avoid unnecessary abstraction and premature design systems; avoid rendering heavy scenes when off-screen.
 - Real content over lorem ipsum whenever the subject is known. Labeled placeholders when not.
+- Output accompanying documentation: `ASSETS.md` (licensing & sources) and `DESIGN.md` (tokens, typography, color system & Swap Test notes).
 
 **Delivery format default:** one self-contained HTML file (inline CSS/JS, pinned CDN libraries only if needed, poster/gradient fallbacks for remote media) unless the user asks for React/TypeScript or an existing repo dictates otherwise. When the environment restricts script hosts, use only the allowed ones and say so.
 

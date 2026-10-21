@@ -6,7 +6,8 @@ A reusable AI coding skill that turns ambitious ideas into distinctive, motion-r
 - **Dynamic style synthesis:** give a topic and the skill invents a bespoke style (metaphor -> mechanic -> world), using 26 seed styles only as vocabulary.
 - **Asset pipeline:** actively sources/generates high-quality media, fonts, icons, logos; quality-gates and documents them.
 - **Smart intake:** assumes everything inferable; asks only relevant high-impact questions, before building.
-- **Taste profile** distilled from three reference builds (3D portfolio, portal experience, scroll-scrubbed film page).
+- **Taste profile & the "Swap Test":** quality bar distilled from three reference builds plus an anti-default audit (rejection of generic SaaS templates) and domain-native editorial micro-copy engine.
+- **`DESIGN.md` specification:** writes a structured design token manifest (palette, typography, spatial geometry, motion curves) alongside `ASSETS.md`.
 - **Technique recipes** (R1-R20): tested-syntax vanilla JS/CSS for scrubbed video, portal canvas, stacking cards, marquees, magnetic hover, preloader, cursor, horizontal scroll, and more.
 - **Taste examples:** three reference prompts kept only as taste calibration (not targets).
 

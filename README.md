@@ -48,10 +48,22 @@ No tedious questionnaires. The skill respects user time with an intelligent deci
 * **Instant Build for Vague Prompts:** When given "make a site about jazz" or "just build it", it infers 100% of creative decisions and starts building immediately.
 * **Max 4 High-Impact Questions:** Only asks about critical blockers that cannot be guessed (real company name, must-use brand assets, genuine taste forks) with sensible defaults pre-selected.
 
-### 4. ⚡ 20 Battle-Tested Technique Recipes (R1–R20)
+### 4. 🛡️ The "Swap Test" & Editorial Micro-Copy Engine
+Drawing from high-craft boutique studio principles, the skill enforces an anti-default audit:
+* **The Swap Test:** Before coding, the director asks: *"Could this headline or section structure fit into a generic B2B SaaS website without looking out of place?"* If yes, it is instantly rejected and revised.
+* **Topic-Native Micro-Copy:** Eliminates generic AI filler slogans (*"Transform your journey"*, *"Unlock potential"*, *"Get Started"*). Enforces domain-authentic terminology (e.g. *escapement oscillation*, *event horizon telemetry*) and decisive narrative commands (*"Inspect Telemetry"*, *"Enter Gravitational Well"*).
+
+### 5. 📐 Standardized `DESIGN.md` Token Manifest
+Inspired by modern open design system conventions, every build and plan can generate a dedicated `DESIGN.md` in the project root alongside `ASSETS.md`:
+* **Design Thesis & Metaphor:** Core spatial verb and signature visual device.
+* **Semantic 6-Role Palette:** `--ground`, `--surface`, `--ink`, `--accent`, `--seam`, and `--signal`.
+* **Fluid Typography Scale:** Metric-matched pairs, display clamp values, and monospaced telemetry tags.
+* **Spatial & Motion Tokens:** Border-radii tiers, glass blur depths, and cubic-bezier easing parameters.
+
+### 6. ⚡ 20 Battle-Tested Technique Recipes (R1–R20)
 Production-ready, copy-pasteable vanilla JavaScript and CSS implementations of the most demanding motion engineering patterns—free from heavy, fragile external dependencies.
 
-### 5. 🔍 Mandatory Browser Verification Loop
+### 7. 🔍 Mandatory Browser Verification Loop
 Builds are inspected across mobile (390px), tablet (768px), and desktop (1440px/1920px) viewports with strict checks for scroll jank, layout shift, contrast readability, asset fallbacks, and `prefers-reduced-motion` compliance.
 
 ---

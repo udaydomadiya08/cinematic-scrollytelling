@@ -76,3 +76,21 @@ They are not targets, templates, or the only acceptable looks. For every new pro
 original assets (`asset-pipeline.md`). Never reuse the sample brands, copy, layouts, or asset URLs. If a result could
 be recognized as one of the examples, mutate it further. (Only rebuild an example literally if the user explicitly
 asks for exactly that.)
+
+## 6. The "Swap Test" (Anti-Default Quality Gate)
+Before writing any markup or CSS, run the **Swap Test** on the design plan and layout:
+- **The Core Question:** *"Could this headline, section composition, or card layout be copied and pasted into a generic B2B SaaS template or random corporate page without looking completely out of place?"*
+- **The Verdict:** If the answer is **YES**, the design has failed the test. Reject it immediately and push deeper into the subject's physical reality, material textures, or unique spatial verbs.
+- **Banned AI Defaults:**
+  - Centered hero with generic subtitle, email input, and "Get Started" button.
+  - Three equal-width rounded cards with colored squircle icons and 2-line bullet points.
+  - Floating purple/cyan ambient gradient blobs serving as backdrops without narrative reason.
+  - Symmetrical grid cards with stock handshakes or generic tech vector illustrations.
+
+## 7. Editorial Micro-Copy Engine
+Cinematic experiences demand evocative, subject-native language rather than generic corporate placeholders:
+- **No Filler Slogans:** Ban "Transform your workflow", "Unlock the potential of X", "Empowering the next generation", "Built for scale".
+- **Authentic Subject Vocabulary:** Use real, concrete, sensory terminology derived from the domain (e.g. for horology: "escapement oscillation", "perlage finish", "4Hz balance"; for deep sea: "hadopelagic trench", "benthic pressure", "ambient lumens").
+- **Action-Oriented Verbs:** Replace passive button text ("Learn More", "Click Here", "Submit") with decisive narrative commands ("Inspect Telemetry", "Enter Gravitational Well", "Sample the Roast", "Trace the Route").
+- **Uppercase Telemetry Labels:** Monospaced or tracked uppercase labels for meta tags, timestamps, coordinates, and chapter milestones (`01 // INITIAL TRAJECTORY`, `DEPTH: -4,200M`).
+

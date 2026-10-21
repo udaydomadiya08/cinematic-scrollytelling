@@ -12,6 +12,7 @@
 ## What it does for you
 - **Invents a style per topic** (not from a fixed list): finds a metaphor in your subject, a scroll mechanic that acts it out, and a matching world of colors, type and media.
 - **Gets the best assets**: searches and verifies stock video/photos, public-domain archives, 3D models, fonts, icons; designs logos/wordmarks; generates media when tools exist, or builds procedural visuals; documents everything in `ASSETS.md`.
+- **Enforces the Swap Test & writes `DESIGN.md`**: rejects generic SaaS layouts, enforces topic-authentic editorial micro-copy, and documents full design tokens in `DESIGN.md`.
 - **Verifies** the result in a browser when one is available and reports honestly.
 
 ## Optional controls
