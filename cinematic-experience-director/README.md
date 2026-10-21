@@ -3,13 +3,13 @@
 A reusable AI coding skill that turns ambitious ideas into distinctive, motion-rich, technically sound, browser-verified web experiences: cinematic scrollytelling, product reveals, scientific/industrial explainers, data narratives, 3D showcases, and redesigns.
 
 ## What is new in this version
-- **Dynamic style synthesis:** give a topic and the skill invents a bespoke style (metaphor -> mechanic -> world), using 26 seed styles only as vocabulary.
+- **Dynamic style synthesis:** give a topic and the skill invents a bespoke style (metaphor -> mechanic -> world), using 27 seed styles only as vocabulary.
 - **Asset pipeline:** actively sources/generates high-quality media, fonts, icons, logos; quality-gates and documents them.
 - **Smart intake:** assumes everything inferable; asks only relevant high-impact questions, before building.
-- **Taste profile & the "Swap Test":** quality bar distilled from three reference builds plus an anti-default audit (rejection of generic SaaS templates) and domain-native editorial micro-copy engine.
+- **Taste profile & the "Swap Test":** quality bar distilled from four reference builds plus an anti-default audit (rejection of generic SaaS templates) and domain-native editorial micro-copy engine.
 - **`DESIGN.md` specification:** writes a structured design token manifest (palette, typography, spatial geometry, motion curves) alongside `ASSETS.md`.
-- **Technique recipes** (R1-R20): tested-syntax vanilla JS/CSS for scrubbed video, portal canvas, stacking cards, marquees, magnetic hover, preloader, cursor, horizontal scroll, and more.
-- **Taste examples:** three reference prompts kept only as taste calibration (not targets).
+- **Technique recipes** (R1-R21): tested-syntax vanilla JS/CSS for scrubbed video, portal canvas, stacking cards, marquees, magnetic hover, preloader, cursor, horizontal scroll, 3D diagonal teardown & re-merge, and more.
+- **Taste examples:** four reference prompts kept only as taste calibration (not targets).
 
 ## Contents
 - `SKILL.md` - metadata, activation description, and the 9-phase workflow (loaded when the skill triggers)
@@ -20,13 +20,13 @@ A reusable AI coding skill that turns ambitious ideas into distinctive, motion-r
 - `references/verification.md` - browser verification loop, viewport matrix, rubric, honest reporting
 - `references/explainers-and-data.md` - visual explanation, interactive models, data narratives
 - `references/style-selector.md` - seed shortlisting (topic table, scoring, combination rules)
-- `references/style-library.md` - 26 seed styles S01-S26 + overlays O1-O4, each with fallbacks
+- `references/style-library.md` - 27 seed styles S01-S27 + overlays O1-O4, each with fallbacks
 - `references/taste-profile.md` - the quality bar and signature moves
-- `references/technique-recipes.md` - R1-R20 working code recipes
+- `references/technique-recipes.md` - R1-R21 working code recipes
 - `references/style-synthesis.md` - how to invent a bespoke style per project (genome, mechanics, checks)
 - `references/asset-pipeline.md` - sourcing, generating, vetting, optimizing, and documenting assets
 - `references/intake-questions.md` - when to assume vs ask, and how to ask
-- `references/taste-examples/` - three sample prompts for taste calibration only (not targets)
+- `references/taste-examples/` - four sample prompts for taste calibration only (not targets)
 
 ## Install
 Agent skill formats differ; confirm your tool's current docs.

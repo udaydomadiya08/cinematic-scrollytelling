@@ -1,9 +1,9 @@
-# Style Library (26 seed styles for scrollytelling / immersive sites)
+# Style Library (27 seed styles for scrollytelling / immersive sites)
 
 **These are seeds and vocabulary, not a menu.** Use them to (a) understand proven patterns, (b) seed-and-mutate
 or hybridize into a bespoke style (`style-synthesis.md`), or (c) pick one outright only when it is genuinely the best
 fit. Never copy an entry verbatim; always adapt to the subject, assets and the user's taste. Recipes are in
-`technique-recipes.md` (R1-R20). Entries marked **[taste example]** have a sample prompt in `taste-examples/`
+`technique-recipes.md` (R1-R21). Entries marked **[taste example]** have a sample prompt in `taste-examples/`
 showing the craft level the owner likes; those prompts are not targets.
 
 ## Contents
@@ -33,6 +33,7 @@ showing the craft level the owner likes; those prompts are not targets.
 - S24 Organic Documentary / Nature
 - S25 Spotlight / Cursor-Lit Reveal
 - S26 Interactive Explainer Lab
+- S27 3D Diagonal Explode & Re-Merge Assembly [taste example]
 - Overlays O1-O4 (cross-cutting systems)
 
 Entry format: **Best for / Feel / Signature / Look / Layout & motion / Build / No-asset fallback / Mobile / Avoid**
@@ -373,6 +374,17 @@ Entry format: **Best for / Feel / Signature / Look / Layout & motion / Build / N
 - **No-asset fallback:** native.
 - **Mobile:** controls docked bottom.
 - **Avoid:** presenting a toy model as validated simulation (label "illustrative").
+
+## S27 3D Diagonal Explode & Re-Merge Assembly [taste example: 04]
+- **Best for:** ANY physical product, hardware startup, engineered device, machine, vehicle, instrument, consumer gadget (audio, cameras, watches, robotics, drones, EV components, medical tools, aerospace, sports gear), or multi-layered architecture where showcasing internal components, craftsmanship, or circuitry and then re-assembling them proves quality.
+- **Feel:** high-precision engineering, industrial, technical, tactile, Awwwards-grade craft.
+- **Signature:** The product begins fully unified. As you scroll, it tilts to an engineered diagonal 3D angle (e.g. 38.4°) and its internal functional layers/components glide apart along the vector for inspection (with leader-line callout pins and technical telemetry), then **magnetically re-merge back together** with tactile locking feedback before continuing into the full business/product narrative.
+- **Look:** Deep void or cleanroom alabaster grounds; precision mono telemetry labels; dual-state CAD wireframe/PBR shader toggle; metallic accents derived from the subject's actual materials (copper, titanium, carbon, gold, brass, ceramic).
+- **Layout & motion:** 500-600vh pinned stage (evaluating timeline: 0-15% assembled, 15-45% diagonal explosion, 45-65% full breakdown & component inspector, 65-88% magnetic re-convergence, 88-100% unified lock, Recipe R21) -> scroll-driven dual marquee / manifesto (R3, R4) -> cleanroom dimensional inversion seam (#F3F3EE) -> interactive BOM & neural lab (S26) -> sticky stacking product cards (R5) -> finish configurator & pre-order modal.
+- **Build:** Dual rendering engine: Three.js WebGL (PBR materials, custom geometry/GLB) + 2D perspective CAD studio canvas with painter's algorithm (zero-dependency fallback).
+- **No-asset fallback:** Fully procedural 3D cylinder/cone/torus mesh hierarchy with procedural metallic specular gradients matching the subject's component geometry.
+- **Mobile:** Pinned canvas top 48vh, narrative card bottom, simplified touch drag orbit, 4 key callout pins.
+- **Avoid:** Restricting this to audio/earphones—synthesize it freely for ANY topic with internal craftsmanship; exploding along random uncoordinated vectors; omitting the re-merge closure.
 
 ---
 

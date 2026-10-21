@@ -60,7 +60,7 @@ Inspired by modern open design system conventions, every build and plan can gene
 * **Fluid Typography Scale:** Metric-matched pairs, display clamp values, and monospaced telemetry tags.
 * **Spatial & Motion Tokens:** Border-radii tiers, glass blur depths, and cubic-bezier easing parameters.
 
-### 6. ⚡ 20 Battle-Tested Technique Recipes (R1–R20)
+### 6. ⚡ 21 Battle-Tested Technique Recipes (R1–R21)
 Production-ready, copy-pasteable vanilla JavaScript and CSS implementations of the most demanding motion engineering patterns—free from heavy, fragile external dependencies.
 
 ### 7. 🔍 Mandatory Browser Verification Loop
@@ -68,9 +68,9 @@ Builds are inspected across mobile (390px), tablet (768px), and desktop (1440px/
 
 ---
 
-## 🎨 The 26 Scrollytelling Seed Styles
+## 🎨 The 27 Scrollytelling Seed Styles
 
-These 26 styles serve as the director's foundational aesthetic vocabulary. In v3, they are mutated, cross-pollinated, and recombined into original designs:
+These 27 styles serve as the director's foundational aesthetic vocabulary. In v3, they are mutated, cross-pollinated, and recombined into original designs:
 
 | Style ID | Name | Core Emotion / Feel | Best Used For | Signature Device |
 |:---|:---|:---|:---|:---|
@@ -100,6 +100,7 @@ These 26 styles serve as the director's foundational aesthetic vocabulary. In v3
 | **S24** | Organic Documentary | Grounded, serene, ecological | Wildlife conservation, national parks, botanical brands | Earth tones, soft organic wave dividers, soundscape audio integration |
 | **S25** | Spotlight / Cursor-Lit | Mysterious, dramatic, intimate | Mystery releases, dark-mode fashion, investigative projects | Radial darkness mask following cursor revealing hidden textures |
 | **S26** | Interactive Explainer Lab | Educational, sandbox, experimental | Physics simulations, educational tools, interactive math | Real-time interactive sliders, sandbox canvas widgets, instant updates |
+| **S27** | 3D Explode & Re-Merge Assembly | High-precision, industrial, tactile | Hardware, audio, watches, robotics, physical teardowns | Parts glide apart along 3D diagonal vector for inspection then magnetically re-merge |
 
 ### Visual Overlays (Cross-Cutting Modifiers)
 * **O1: Glass / Spatial HUD:** Frosted backdrop-blur pills (`backdrop-filter: blur(16px)`), specular highlights (`rgba(255,255,255,0.08)` borders), floating telemetry tags.
@@ -109,7 +110,7 @@ These 26 styles serve as the director's foundational aesthetic vocabulary. In v3
 
 ---
 
-## ⚡ 20 Battle-Tested Technique Recipes (R1–R20)
+## ⚡ 21 Battle-Tested Technique Recipes (R1–R21)
 
 Located in `cinematic-experience-director/references/technique-recipes.md`, each recipe is self-contained and engineered for 60fps performance:
 
@@ -134,6 +135,7 @@ R17 │ SVG Dynamic Path Drawing          │ Stroke-dashoffset scroll animation
 R18 │ Minimal Three.js Scroll Camera    │ Lightweight WebGL scene with scroll-driven camera spline navigation
 R19 │ Interactive Spotlight Mask        │ Dynamic radial-gradient dark mask revealing underlying content under cursor
 R20 │ Velocity-Skew Brutalist Marquee   │ Kinetic type with real-time CSS skew distortion mapped to scroll momentum
+R21 │ 3D Diagonal Explode & Re-Merge     │ 5-stage timeline separating sub-assemblies along 3D vector and magnetically re-locking
 ```
 
 ---

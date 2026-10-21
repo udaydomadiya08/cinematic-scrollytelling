@@ -1,8 +1,8 @@
 # Taste Profile (the "motionsites-grade" quality bar)
 
-This file captures the taste of the person who owns this skill, distilled from three
+This file captures the taste of the person who owns this skill, distilled from four
 reference builds (see `taste-examples/`): a 3D-creator portfolio, a "Planet Jumping" portal
-experience, and a scroll-scrubbed AI-company page. Apply it as the **default quality bar for
+experience, a scroll-scrubbed AI-company page, and a 3D diagonal exploded earphone/hardware teardown & re-merge showcase. Apply it as the **default quality bar for
 every build**, whichever style from `style-library.md` is selected. It describes *qualities*
 to reach, not pages to copy.
 
@@ -63,6 +63,7 @@ to reach, not pages to copy.
 | Percentage preloader that hands off to a docked logo | R9 |
 | Custom cursor (dot + lerped ring + contextual label) | R10 |
 | Glass chips, left-accent badges, mono labels over video | R15 |
+| 3D diagonal separation & magnetic re-merge assembly mechanism | R21 |
 
 ## 4. Things the references do NOT do
 No parallax confetti, no emoji icons, no stock photography, no icon-card grids, no

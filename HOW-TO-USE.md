@@ -30,9 +30,9 @@
 | references/intake-questions.md | When to assume vs ask |
 | references/style-synthesis.md | Inventing a bespoke style |
 | references/style-library.md, style-selector.md | Seed styles and shortlist helper |
-| references/taste-profile.md, taste-examples/ | Quality bar; your 3 samples as calibration only |
+| references/taste-profile.md, taste-examples/ | Quality bar; your 4 samples as calibration only |
 | references/asset-pipeline.md, assets.md | Sourcing, generating, vetting assets |
-| references/technique-recipes.md | R1-R20 working code |
+| references/technique-recipes.md | R1-R21 working code |
 | other references | Art direction, motion, tech/performance, verification, explainers |
 
 ## Install permanently

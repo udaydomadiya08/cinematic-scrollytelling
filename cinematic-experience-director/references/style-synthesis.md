@@ -52,7 +52,7 @@ Rule of thumb: at most **one** loud axis per page (the signature); the others su
 
 ## 4. Scroll / interaction mechanic catalog (pick or combine; invent more)
 Scrubbed film; frame-sequence scrub; sticky pinned stage with state changes; chapter snapping; click-to-travel portal /
-window expansion; zoom-through / infinite scale; camera fly-through on a path; orbit around an object; exploded/assembly
+window expansion; zoom-through / infinite scale; camera fly-through on a path; orbit around an object; **3D diagonal explode & magnetic re-merge assembly** (modules separate along an engineered 3D axis for internal inspection, then snap back together with tactile lock feedback); exploded/assembly
 timeline; parallax depth layers; horizontal film strip; stacking/sliding cards; clip-path / mask reveal; type-as-window;
 text fill by scroll; split-screen sync scroll; path-following marker; morphing chart; map pan/zoom; time-scrubber;
 parameter sliders controlling a model; cursor-lit reveal; drag-to-explore canvas; compare slider; velocity-reactive
@@ -73,6 +73,9 @@ Ask: *What does this subject do, physically? What is it like? What does its audi
 - **Specialty coffee roaster** - metaphor: roast curve; mechanic: pinned stage where beans change color and a
   temperature curve draws as you scroll; world: kraft paper + roast browns + one tomato-red, hand-cut serif +
   mono; media: macro footage/photography; signature: the roast-curve line is the page's progress bar.
+- **Engineered physical hardware / teardown (e.g. audio monitor, watch movement, EV inverter)** - metaphor: craftsmanship beneath the surface;
+  mechanic: 3D diagonal explode and re-merge assembly (modules separate along an engineered 38.4° axis on scroll, orbit 360° with CAD callout pins, then magnetically re-merge);
+  world: obsidian void or cleanroom ceramic, metallic copper/gold/titanium, technical monospace telemetry; media: procedural 3D PBR meshes or GLB; signature: the magnetic snap-lock shockwave when parts re-converge.
 - **Municipal water utility annual report** - metaphor: water's path; mechanic: SVG path-following droplet across a
   map-to-tap journey with data callouts; world: clean blues/white, humanist sans; media: SVG + real stats;
   signature: a single drop that carries you from reservoir to kitchen tap.

@@ -1,4 +1,4 @@
-# Technique Recipes (R1-R20)
+# Technique Recipes (R1-R21)
 
 Dependency-free snippets (vanilla JS/CSS) for the techniques used by the styles in
 `style-library.md`. Adapt names/values; keep the mechanics. All scroll code is passive, uses
@@ -10,7 +10,7 @@ R4 Scroll-driven dual marquee - R5 Sticky stacking cards - R6 Magnetic element -
 R8 Canvas portal window (fake 3D) - R9 Preloader counter + docked logo - R10 Custom cursor -
 R11 Horizontal scroll section - R12 Type-as-window / mask - R13 Image-sequence canvas - R14 Pinned chapters -
 R15 Tokens: gradient type, glass, inversion seam - R16 Reduced motion - R17 SVG path draw - R18 Three.js scroll camera -
-R19 Spotlight mask - R20 Velocity-skew marquee
+R19 Spotlight mask - R20 Velocity-skew marquee - R21 3D Diagonal Explode & Re-Merge Assembly Mechanism
 
 ## R1 Scroll progress + lerp loop
 ```js
@@ -355,3 +355,54 @@ let lastY = scrollY, vel = 0, x = 0;
   const row = document.querySelector('.kinetic'); const w = row.scrollWidth / 2; row.style.transform = `translate3d(${x % w}px,0,0) skewX(${clamp(vel * -.4, -12, 12)}deg)`; requestAnimationFrame(f); })();
 ```
 Duplicate the row content once so `x % w` loops seamlessly.
+
+## R21 3D Diagonal Explode & Re-Merge Assembly Mechanism (S27)
+Used for hardware startups, audio/earphone showcases, watch movements, robotics, and consumer electronics where components separate along an engineered 38.4° 3D diagonal vector, orbit 360°, and magnetically re-merge back together upon scroll.
+
+### 1. 5-Stage Timeline State Evaluator
+```js
+function evaluateExplodeTimeline(p) {
+  p = Math.min(1, Math.max(0, p));
+  // 0.00-0.14: Assembled | 0.14-0.42: Explodes | 0.42-0.65: Full Breakdown | 0.65-0.87: Re-Merges | 0.87-1.00: Locked
+  let explosion = 0;
+  if (p < 0.14) explosion = 0;
+  else if (p < 0.42) explosion = (p - 0.14) / 0.28;
+  else if (p < 0.65) explosion = 1.0;
+  else if (p < 0.87) explosion = 1.0 - (p - 0.65) / 0.22;
+  else explosion = 0;
+
+  const diagRoll = -38.4 * Math.PI / 180; // 38.4 deg diagonal 3D vector
+  const yaw = -0.45 + p * Math.PI * 2.15;
+  const pitch = 0.24 + Math.sin(p * Math.PI * 2) * 0.22;
+  const lockPulse = (p >= 0.85 && p <= 0.98) ? Math.sin(((p - 0.85) / 0.13) * Math.PI) : 0;
+  return { p, explosion, diagRoll, yaw, pitch, lockPulse };
+}
+```
+
+### 2. 3D-to-2D Perspective Projection along Diagonal Vector
+```js
+function project3D(lx, ly, lz, state, cx, cy, scalePx) {
+  // Yaw -> Pitch -> Diagonal 38.4 deg Roll
+  const cyaw = Math.cos(state.yaw), syaw = Math.sin(state.yaw);
+  let x1 = lx * cyaw + lz * syaw, y1 = ly, z1 = -lx * syaw + lz * cyaw;
+  const cpitch = Math.cos(state.pitch), spitch = Math.sin(state.pitch);
+  let x2 = x1, y2 = y1 * cpitch - z1 * spitch, z2 = y1 * spitch + z1 * cpitch;
+  const croll = Math.cos(state.diagRoll), sroll = Math.sin(state.diagRoll);
+  let x3 = x2 * croll - y2 * sroll, y3 = x2 * sroll + y2 * croll;
+  const persp = 9.5 / (9.5 + z2 + 4.2);
+  return { x: cx + x3 * scalePx * persp, y: cy + y3 * scalePx * persp, z: z2, s: persp };
+}
+```
+
+### 3. Component Interpolation (Assembled -> Exploded -> Re-Merged)
+```js
+// parts have resting offset along the axis (e.g., [-3.25, -2.15, -1.10, 0, 1.18, 2.28, 3.35])
+parts.forEach((part, idx) => {
+  const assembledX = (idx - 3) * 0.22;
+  const explodedX = part.offset;
+  const curX = lerp(assembledX, explodedX, state.explosion);
+  const pos = project3D(curX, 0, 0, state, cx, cy, scalePx);
+  // draw procedural 3D cylinder or position Three.js sub-assembly at curX
+});
+```
+

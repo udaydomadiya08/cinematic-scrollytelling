@@ -67,6 +67,7 @@ explain, impress, inform, recruit, donate), **mood words**, **explicit style/ref
 | "documentary", "nature", "farm", "wildlife" | S24 |
 | "flashlight", "spotlight", "reveal under cursor" | S25 |
 | "simulation", "interactive lab", "sliders" | S26 |
+| "hardware", "product breakdown", "teardown", "components", "3D explode", "remerge", "assembly", "internal electronics", "how it's made", "physical product", "mechanism", "drone", "camera", "robotics", "watch movement", "earphones", "audio gear" | S27 |
 If the user asks for "all kinds"/"surprise me", pick by topic and mention two alternates.
 
 ## 4. Topic -> style table (primary / good secondaries / avoid)
@@ -78,9 +79,10 @@ If the user asks for "all kinds"/"surprise me", pick by topic and mention two al
 | 3D artist / designer / creative portfolio | S01 | S09, S17, S08, O3 | S12 |
 | Agency / studio / creative collective | S11 or S09 | S10, S17, S01 | S15 |
 | Photographer / filmmaker / visual artist | S08 | S17, S24, S25 | S21 |
-| Automotive / motorbike / EV | S05 | S06, S10, S04 | S23 |
-| Consumer hardware / gadget / audio / camera | S05 or S06 | S21, S04 | S16 |
-| Luxury / watch / jewelry / perfume / hotel / wedding | S15 | S05, S24, S12 | S11, S23 |
+| Automotive / motorbike / EV / aerospace hardware | **S27** or S05 | S06, S10, S04 | S23 |
+| Hardware startup / electronics / gadgets / wearables / audio / cameras | **S27** (or S05) | S06, S14, S21 | S16, S23 |
+| Robotics / drones / precision machinery / medical hardware | **S27** or S14 | S26, S06, S04 | S15, S23 |
+| Luxury / watch / jewelry / perfume / hotel / wedding | S15 (or **S27** for mechanical watch movements) | S05, S24, S12 | S11, S23 |
 | Fashion / streetwear / sneakers | S10 or S08 | S11, S17, S05 | S14 |
 | Music / festival / event / nightlife | S11 or S17 | S10, S03, S16 | S12 |
 | Film / TV / game launch | S10 or S02 | S03, S16, S25 | S21 |
